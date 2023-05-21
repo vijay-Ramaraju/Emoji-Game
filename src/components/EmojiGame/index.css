@@ -1,0 +1,11 @@
+/* Write your code here. */
+.main-container {
+  background-image: linear-gradient(to top, #fbc7d4, #9796f0);
+  height: 200vh;
+}
+.emojis-list {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}

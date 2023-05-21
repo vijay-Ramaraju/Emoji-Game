@@ -1,0 +1,57 @@
+/* Write your code here. */
+.win-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid #ffffff30;
+  width: 55%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 25%;
+  padding: 2%;
+  margin-right: 25%;
+}
+.win-sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.win-card-heading {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: left;
+}
+.score-text {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.final-score-style {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.win-card-button {
+  background-color: #ffce27;
+  color: #3d3d3d;
+  font-size: 10px;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 8px;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.button-container {
+  text-align: center;
+}
+.result-img {
+  width: 40%;
+  height: 40%;
+}
